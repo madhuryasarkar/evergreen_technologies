@@ -463,13 +463,18 @@ ul.social_icons li  a i{
 /*===========================
   services
 ============================ */
-
+.prof_services_desc{
+  text-align: justify;
+}
+.prof_services .fa{
+  color: turquoise;
+}
 .services {
 	padding:80px 0 80px 0;
 }
 
 .services .text-center h2 {
-	font-weight:300;
+	font-weight:550;
 	text-transform:uppercase;
 	text-shadow:none;
 	margin-bottom:50px;
@@ -820,8 +825,7 @@ ul.sidebar-gallery {
 
 ul.social-network {
 	list-style:none;
-	margin-top:20px;	
-	padding:10px;
+
 	transition: all 0.3s ease-in-out;
   -moz-transition: all 0.3s ease-in-out;
   -webkit-transition: all 0.3s ease-in-out;
